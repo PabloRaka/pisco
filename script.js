@@ -1,4 +1,4 @@
-const API_URL = "https://n8n.starcore.co.id/webhook-test/chatbot";
+const API_URL = "https://n8n.starcore.co.id/webhook/chatbot";
 //https://n8n.starcore.co.id/webhook-test/chatbot
 //
 const messagesContainer = document.getElementById("messages");
@@ -92,3 +92,4 @@ sendBtn.addEventListener("click", sendMessage);
 inputField.addEventListener("keydown", (e) => {
   if (e.key === "Enter") sendMessage();
 });
+
