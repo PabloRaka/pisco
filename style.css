@@ -55,7 +55,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 12px;
-  background: #f5f7fb;
+  background: #009d9a;
 }
 
 /* Bubble Wrapper */
@@ -84,7 +84,7 @@ body {
   align-self: flex-end;
 }
 .user .message {
-  background: #007bff;
+  background: #009d9a;
   color: white;
   border-bottom-right-radius: 6px;
 }
@@ -260,3 +260,4 @@ body {
   background: #e6f0ff;
   transition: background 0.2s;
 }
+
