@@ -3,7 +3,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #eceff1;
+  background: #009d9a;
   height: 100vh;
   margin: 0;
   font-family: "Segoe UI", Arial, sans-serif;
@@ -20,7 +20,7 @@ body {
   flex-direction: column;
   border-radius: 16px;
   overflow: hidden;
-  background: #fefefe;
+  background: #009d9a;
   box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
   z-index: 998;
 }
@@ -260,4 +260,5 @@ body {
   background: #e6f0ff;
   transition: background 0.2s;
 }
+
 
