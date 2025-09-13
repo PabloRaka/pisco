@@ -17,8 +17,11 @@ function addMessage(text, sender, isHTML = false) {
 
   const bubble = document.createElement("div");
   bubble.classList.add("message");
-  if (isHTML) {
-    bubble.innerHTML = text;
+
+  if (isHTML || sender === "bot") {
+    // 🔥 parse teks dengan **jadi bold
+    const formatted = text.replace(/\*\*(.*?)\*\*/g, "<strong>$1</strong>");
+    bubble.innerHTML = formatted;
   } else {
     bubble.textContent = text;
   }
