@@ -1,4 +1,4 @@
-const API_URL = "https://n8n.starcore.co.id/webhook/test_ocr";
+const API_URL = "https://n8n.starcore.co.id/webhook/chatbot";
 //https://n8n.starcore.co.id/webhook/chatbot
 //https://n8n.starcore.co.id/webhook-test/chatbot
 //https://n8n.starcore.co.id/webhook-test/test_ocr
@@ -251,4 +251,5 @@ fileInput.addEventListener("change", () => {
     filePreview.appendChild(wrapper);
   });
 });
+
 
